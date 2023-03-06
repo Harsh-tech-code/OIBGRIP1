@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ECE9F0;
+}
+
+.section{
+    width: 100%;
+    
+
+}
+
+.section .herocase{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.image-section{
+   float: left;
+   border-radius: 50%;
+   overflow:hidden;
+
+   
+}
+
+.image-section img{
+    width: 300px;
+    height: 320px;
+}
+
+.content{
+    float: right;
+    width: 55%;
+}
+
+
+.content .article .title{
+     text-align: center;
+    font-size: 40px;
+   font-weight: 600;
+   position: relative;
+   
+   
+}
+
+.content .article .title::after{
+    content: "";
+    position: absolute;
+    margin:auto;
+    display: block;
+    height: 4px;
+    width: 350px;
+    left: 120px;
+    bottom: -10px;
+    background: #2F164D;
+    transform: translateY(-25px);
+}
+
+.content .article .title ,p{
+    padding: 20px;   
+    color: #2F164D;
+    background:  #ECE9F0;
+
+}
+
+.content .article .title h1,p:hover{
+    color:#ECE9F0 ;
+    background:  #2F164D ;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+.herocase .container{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.container .pro-title{
+   position: relative;
+   text-align: center;
+   font-size: 25px;
+}
+
+.container .pro-title::after{
+     content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background: #2F164D;
+    display: block;
+    border-radius: 25px;
+    margin:auto;
+    left: 43%;
+    bottom: -10px;
+    transform: translateY(-5px);
+}
+
+
+.container ul{
+    list-style-type: none;
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: 20px;
+} 
+
+.container ul li{
+    padding: 3px;
+    font-weight: 300;
+    text-align:left;
+    color: black;
+}
+
+.table,tr,th,td{
+    margin-left: 242px;
+    margin-top: 20px;
+    padding: 17px;
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+.table .thead-dark{
+    background:#77717d ;
+    color: #fff;
+    text-align: justify;
+    
+    
+}
+
+.footer-bottom{
+    padding:1rem;
+    background: #77717d;
+    color: #fff;
+    text-align: center;
+}
